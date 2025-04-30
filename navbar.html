@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            margin: 0;
+            padding:0;
+        } 
+        /* for nav bar creation */
+        .nav{
+            
+            background-color: aqua;
+            height: 30px;
+            width: 100%;
+            display: flex;
+            text-align:center;
+            justify-content:center ;
+            text-decoration: none;
+        }
+        /* for ul component */
+        /* pesudo selector */
+        .nav ul {
+            background-color:red;
+            
+            display: flex;
+            /* text-align:center;
+            justify-content:center ;  not necessary because display flex properties make it horizontal*/
+            list-style-type: none;
+            
+        }
+        /* for li component */
+         .nav ul li{
+            margin-top: 5px;
+           
+        
+         }
+         .nav ul li a{ 
+            
+            margin: 10px;
+            
+            text-decoration: none;
+            color: black;
+           
+         }
+        .login-btn {
+            background-color: blue;
+            width: 80px;
+            height:25px;
+        }
+
+         .nav ul li a:hover{
+
+         }  
+            
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul><li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">product</a></li>
+             <li><button class="login-btn">Login</button></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
