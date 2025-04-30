@@ -10,16 +10,17 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 35%, rgba(0,212,255,1) 100%);
 }
+/*  container target */
 .section{
     width:100vw;
     height: 100vh;
-    
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction:row;
     flex-wrap: wrap;
 }
+/* card class target */
 .card{
     width: 270px;
     height: 400px;
@@ -51,6 +52,7 @@ p{
     text-align: center;
     padding: 10px;
 }
+/* give som hover effect */
 .card:hover{
     box-shadow: gray 3px 1px 3px 1px;
     transform: translateY(-30px);
